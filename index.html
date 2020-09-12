@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FreeCodeCamp - Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+
+<div id="page">
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" alt="Argent logo" src="https://i.pinimg.com/564x/10/ee/0b/10ee0bb1ff1c3502547226644f6ccff4.jpg">
+      </img>
+    </div>
+  <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#who-we-are">Who we are</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="promotion">
+    <h2>Want to receive promotions?</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email"type="email"
+        placeholder="Enter your email address" required/>
+      <input id="submit" type="submit" value="Get Started" class="button" />
+    </form>
+  </section>
+
+<div class="container">
+    <section id="who-we-are">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Who we are</h2>
+          <p>We are a group of finance specialists and we are able to guide you to achieve a prosperous financial life.</p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <h2>How it works</h2>
+      <iframe id="video" height="315" src="https://www.youtube.com/embed/7qdUr6AEkDY" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="personal">
+        <div class="level">Personal finances</div>
+        <h2>$100</h2>
+        <ol>
+          <li>Learn how to organize your personal budget.</li>
+        </ol>
+        <button class="button">Select</button>
+      </div>
+      <div class="product" id="domestic">
+        <div class="level">Domestic economy</div>
+        <h2>$200</h2>
+        <ol>
+          <li>Learn how to organize yor house budget.</li>
+        </ol>
+        <button class="button">Select</button>
+      </div>
+      <div class="product" id="kids">
+        <div class="level">Finance for kids</div>
+        <h2>$200</h2>
+        <ol>
+          <li>Learn how to talk about finance with children.</li>
+        </ol>
+        <button class="button">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2020, Argent</span>
+    </footer>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

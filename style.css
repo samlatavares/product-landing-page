@@ -1,0 +1,171 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap";
+
+header {
+  width:100%;
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 80px;
+  max-height:80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: flex-start;
+  margin-left: 20px;
+}
+
+nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+nav li {
+  padding-bottom: 5px;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav {
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer {
+  width:100%;
+  background: #808080;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+ul > li {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #444;
+}
+
+#page {
+  background-color: #D3D3D3;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#promotion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#how-it-works {
+  margin-top: 60px;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: calc(40%);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .product {
+    width: 80%;
+  }
+}
+
+
+.product > .level {
+  background-color: #000;
+  width: 100%;
+  color: white;
+}
+
+.product > button {
+  font-weight: 400;
+  width: 100%;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  --display: inline-block;
+  font-size: 14px;
+  cursor: hand;
+}
+
+div > p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
