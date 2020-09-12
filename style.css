@@ -59,16 +59,15 @@ a {
 
 footer {
   width:100%;
-  background: #808080;
+  background: #2C2C2C;
+  min-height: 75px;
+  margin-top: 50px;
 }
 
-footer > ul {
+footer > span {
   display: flex;
   justify-content: center;
-}
-
-footer > ul > li {
-  padding: 0 10px;
+  padding-top: 20px;
 }
 
 ul > li {
@@ -114,7 +113,7 @@ footer > span {
 #pricing {
   margin-top: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -123,7 +122,7 @@ footer > span {
 .product {
   display: flex;
   flex-direction: column;
-  width: calc(40%);
+  width: calc(100%/3);
   margin: 10px;
   border: 1px solid #000;
   border-radius: 5px;
@@ -134,7 +133,19 @@ footer > span {
 
 @media (max-width: 550px) {
   .product {
+    display: flex;
+    flex-direction: column;
     width: 80%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #pricing {
+    flex-direction: column;
   }
 }
 
@@ -157,7 +168,6 @@ footer > span {
   padding: 6px 18px;
   text-align: center;
   text-decoration: none;
-  --display: inline-block;
   font-size: 14px;
   cursor: hand;
 }
